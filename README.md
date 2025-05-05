@@ -1,6 +1,6 @@
 ripgrep-lite
 ------------
-👋 About This Project
+About This Project
 This tool was built as part of my early Rust learning journey. It demonstrates how to build a CLI application using idiomatic Rust, including:
 
 Regex-based pattern matching (with regex)
