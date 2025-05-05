@@ -1,14 +1,19 @@
 ripgrep-lite
 ------------
+A minimalist command-line search tool written in Rust.
+It mimics basic grep functionality while supporting regex matching,
+case-insensitive search, and colorized output of matched text.
+### Background
 
-This tool was built as part of my early Rust learning journey. It demonstrates how to build a CLI application using idiomatic Rust, including:
+This project was originally based on the [Rust Book's](https://doc.rust-lang.org/book/ch12-00-an-io-project.html) "minigrep" tutorial project. I extended it by:
 
-- Regex-based pattern matching (with regex)
-- ANSI-colored output (via colored)
-- Environment variable support
-- Error handling and unit testing
+- Replacing basic string matching with full regex support
+- Adding ANSI-colored highlighting for matched text
+- Improving error handling and robustness
+- Writing and expanding unit tests
+- Packaging it as a portfolio-ready CLI tool
 
-While minimalist by design, this project showcases real-world Rust fundamentals and serves as a base for more advanced CLI work.
+The goal was to take a guided learning exercise and evolve it into a standalone, functional tool that reflects real-world Rust development practices.
 
 -------------------
 Project Features
